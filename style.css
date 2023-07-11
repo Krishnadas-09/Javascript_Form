@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    width: 100%;
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-color: black;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.myform{
+    padding: 16px;
+    background-color: #d0d0f0;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 5px;
+    border:5px solid green;
+}
+.myform .input-container{
+    
+    display: flex;
+    gap: 32px;
+}
+.myform .input-container label{
+    width:30%;
+}
+.myform .input-container input[type='text'] input[type='password']{
+    width:100%;
+}
+.myform .submit-container{
+    
+    display: flex;
+    justify-content: center;
+}
+.myform .actionbtns{
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.myform button{
+    width: 100%;
+    justify-content: space-around;
+    background-color: aqua;
+    border-radius: 25px;
+    border: 0;
+    outline: 0;
+    height: 30px;
+    width: 100px;
+}
+
+.actionbtns .disable{
+    background-color: antiquewhite;
+}
+.signin-form .signup-input{
+    display:none;
+}
+
